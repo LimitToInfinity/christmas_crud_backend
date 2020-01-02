@@ -7,7 +7,7 @@ class PresentSerializer
       {
         stars: rating.stars,
         description: rating.description,
-        id: rating.id
+        id: rating.id,
         present_id: rating.present_id
       }
     end
