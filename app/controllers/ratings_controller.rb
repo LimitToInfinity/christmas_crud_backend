@@ -13,6 +13,7 @@ class RatingsController < ApplicationController
 
     def create
         @rating = Rating.create(rating_params)
+        render json: @rating
     end
 
     def update

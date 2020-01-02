@@ -13,7 +13,7 @@ drone = Present.create({
 
 book = Present.create({
     name: "Book",
-    image: "https://www.adazing.com/wp-content/uploads/2019/02/open-book-clipart-03.png",
+    image: "https://api.time.com/wp-content/uploads/2015/06/521811839-copy.jpg",
 })
 
 scarf = Present.create({
